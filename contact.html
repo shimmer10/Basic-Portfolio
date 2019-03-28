@@ -1,33 +1,44 @@
 <!DOCTYPE html>
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
     <title>Contact Jenn</title>
 
-        <!-- Link to CSS -->
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header id="clearfix" class="header">
-        <h2>Jennifer Grace</h2>
-        <a href="index.html" class="float">About</a>
-        <a href="portfolio.html" class="float">Portfolio</a>
-        <a href="contact.html" class="float">Contact</a>
+    <header id="clearfix">
+        <div id="header-name">
+            <a id="name">Jennifer Grace</a>
+        </div>
+        <div id="info">
+            <a href="index.html" id="about">About</a>
+            <a> | </a>
+            <a href="portfolio.html" id="portfolio">Portfolio</a>
+            <a> | </a>
+            <a href="contact.html" id="contact">Contact</a>
+        </div>
     </header>
 
-    <div id="main-section">
+    <section id="main-section">
         <h1>Contact</h1>
+        <p id="line"></p>
         <form action="/action_page.php">
-            Name: <input type="text" name="name"><br>
-            Email: <input type="text" name="email"><br>
-            Message: <input type="text" name="message"><br>
+            Name: <br>
+            <input type="text" placeholder="First Last" name="name" class="input"><br>
+            Email: <br>
+            <input type="text" placeholder="example@gmail.com" name="email" class="input"><br>
+            Message: <br>
+            <textarea type="text" name="message" id="message" class="input"></textarea><br>
             <input class="button" type="submit" value="Submit">
-          </form>
-    </div>
+        </form>
+    </section>
 
     <footer>
-        Copyright ©
+        <p id="copyright">Copyright ©</p>
     </footer>
 
 </body>

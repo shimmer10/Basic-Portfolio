@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
@@ -9,26 +10,39 @@
 </head>
 
 <body>
-    <header id="clearfix" class="header">
-        <h2>Jennifer Grace</h2>
-        <a href="index.html" class="float">About</a>
-        <a href="portfolio.html" class="float">Portfolio</a>
-        <a href="contact.html" class="float">Contact</a>
+    <header id="clearfix">
+        <div id="header-name">
+            <a id="name">Jennifer Grace</a>
+        </div>
+        <div id="info">
+            <a href="index.html" id="about">About</a>
+            <a> | </a>
+            <a href="portfolio.html" id="portfolio">Portfolio</a>
+            <a> | </a>
+            <a href="contact.html" id="contact">Contact</a>
+        </div>
     </header>
 
-    <div id="main-section">
+
+    <section id="main-section">
         <h1>About Me</h1>
-        <img id="bio-image" src="assets/images/IMG_2120.jpeg" height="300px" width="220px">
+        <p id="line"></p>
+        <img id="bio-image" src="assets/images/IMG_2120.jpeg" alt="bio-image">
         <p>Hello and welcome to my portfolio website! My name is Jennifer Grace and I'm a software developer and animal
             enthusiast.</p>
         <p>I have a busy household with three cats, a dog, and a husband. Never a dull moment!</p>
         <p>I completed my Bachelors of Science in Computer Information Technology. I've been doing software development
-            for
-            quite a few years but almost four for my employer.</p>
-    </div>
+            for quite a few years but almost four for my employer.</p>
+        <p>A majority of my career has been in backend services. I have experience with
+            Java, Python, Ruby, and Chef. I've tested based on TDD with cucumber and JUnit.
+            I've also used SoapUI and postman with both XML and JSON. The team I am on is currently
+            working on created updated API services that will allow us to acheive our services faster
+            and more reliably.
+        </p>
+    </section>
 
     <footer>
-        Copyright ©
+        <p id="copyright">Copyright ©</p>
     </footer>
 
 </body>
