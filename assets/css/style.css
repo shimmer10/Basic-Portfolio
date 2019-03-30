@@ -67,6 +67,7 @@ label {
     width: 25%;
     margin-left: 35%;
     padding: 15px 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #line {
     width: 950px;
@@ -116,9 +117,6 @@ label {
     color: #777777;
     font-size: 15px;
 }
-/* .info:visited {
-    color: blue;
-} */
 .input {
     margin: 5px;
     width: 940px;
