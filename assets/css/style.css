@@ -94,6 +94,7 @@ label {
 }
 #message {
     height: 200px;
+    width: 940px;
 }
 .button {
     background: #4aaaa5;
@@ -117,7 +118,7 @@ label {
     color: #777777;
     font-size: 15px;
 }
-.input {
+input {
     margin: 5px;
     width: 940px;
     height: 25px;
